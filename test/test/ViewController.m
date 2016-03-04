@@ -61,7 +61,7 @@
     
     UIButton *inBtn2 = [UIButton buttonWithType:UIButtonTypeCustom];
     inBtn2.frame = CGRectMake(80, 80, 50, 50);
-    inBtn2.backgroundColor = [UIColor purpleColor];
+    inBtn2.backgroundColor = [UIColor greenColor];
     self.inBtn2 = inBtn2;
     [inBtn2 addTarget:self action:@selector(inBtn2Click) forControlEvents:UIControlEventTouchUpInside];
     [self.outBtn addSubview:self.inBtn2];
