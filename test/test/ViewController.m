@@ -24,7 +24,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    //[self test1];
+    [self test3];
     
     
     
@@ -94,6 +94,10 @@
 
 - (void)test3
 {
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    btn.backgroundColor = [UIColor redColor];
+    
+    [self.otherBtn addSubview:btn];
     NSLog(@"我是test3");
 }
 - (void)didReceiveMemoryWarning {
