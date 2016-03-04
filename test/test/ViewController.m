@@ -26,8 +26,6 @@
     [super viewDidLoad];
     //[self test1];
     [self test2];
-    
-    
 }
 
 - (IBAction)outBtnClick:(UIButton *)sender
@@ -53,7 +51,7 @@
 - (void)test2
 {
     UIButton *inBtn1 = [UIButton buttonWithType:UIButtonTypeCustom];
-    inBtn1.frame = CGRectMake(20, 20, 50, 50);
+    inBtn1.frame = CGRectMake(30, 30, 50, 50);
     inBtn1.backgroundColor = [UIColor blueColor];
     self.inBtn1 = inBtn1;
     [inBtn1 addTarget:self action:@selector(inBtnClick) forControlEvents:UIControlEventTouchUpInside];
@@ -94,6 +92,10 @@
 
 - (void)test3
 {
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    btn.backgroundColor = [UIColor redColor];
+    
+    [self.otherBtn addSubview:btn];
     NSLog(@"我是test3");
 }
 - (void)didReceiveMemoryWarning {
