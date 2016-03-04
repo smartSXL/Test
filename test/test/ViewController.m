@@ -25,7 +25,7 @@
 {
     [super viewDidLoad];
     //[self test1];
-    
+    [self test2];
     
     
 }
@@ -67,8 +67,8 @@
     [self.outBtn addSubview:self.inBtn2];
     
     self.outBtn.exclusiveTouch = YES;
-    //    self.inBtn1.exclusiveTouch = YES;
-    //    self.inBtn2.exclusiveTouch = YES;
+        self.inBtn1.exclusiveTouch = YES;
+        self.inBtn2.exclusiveTouch = YES;
     self.otherBtn.exclusiveTouch = YES;
     
 
