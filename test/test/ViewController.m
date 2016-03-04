@@ -25,9 +25,6 @@
 {
     [super viewDidLoad];
     [self test3];
-    
-    
-    
 }
 
 - (IBAction)outBtnClick:(UIButton *)sender
