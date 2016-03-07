@@ -102,8 +102,5 @@
     [self.otherBtn addSubview:btn];
     NSLog(@"我是test3");
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> dev
 @end
