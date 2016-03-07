@@ -15,6 +15,8 @@
 		35056F991C523E9900FD8FAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35056F971C523E9900FD8FAD /* LaunchScreen.storyboard */; };
 		35056FA41C523E9900FD8FAD /* testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35056FA31C523E9900FD8FAD /* testTests.m */; };
 		35056FAF1C523E9900FD8FAD /* testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35056FAE1C523E9900FD8FAD /* testUITests.m */; };
+		35F8DF4B1C8D204A0058A4BB /* DIYButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F8DF4A1C8D204A0058A4BB /* DIYButton.m */; };
+		35F8DF4E1C8D211B0058A4BB /* DIYLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F8DF4D1C8D211B0058A4BB /* DIYLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		35056FAA1C523E9900FD8FAD /* testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35056FAE1C523E9900FD8FAD /* testUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testUITests.m; sourceTree = "<group>"; };
 		35056FB01C523E9900FD8FAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35F8DF491C8D204A0058A4BB /* DIYButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIYButton.h; sourceTree = "<group>"; };
+		35F8DF4A1C8D204A0058A4BB /* DIYButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIYButton.m; sourceTree = "<group>"; };
+		35F8DF4C1C8D211B0058A4BB /* DIYLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIYLabel.h; sourceTree = "<group>"; };
+		35F8DF4D1C8D211B0058A4BB /* DIYLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIYLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 				35056F971C523E9900FD8FAD /* LaunchScreen.storyboard */,
 				35056F9A1C523E9900FD8FAD /* Info.plist */,
 				35056F891C523E9900FD8FAD /* Supporting Files */,
+				35F8DF491C8D204A0058A4BB /* DIYButton.h */,
+				35F8DF4A1C8D204A0058A4BB /* DIYButton.m */,
+				35F8DF4C1C8D211B0058A4BB /* DIYLabel.h */,
+				35F8DF4D1C8D211B0058A4BB /* DIYLabel.m */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -270,6 +280,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35F8DF4B1C8D204A0058A4BB /* DIYButton.m in Sources */,
+				35F8DF4E1C8D211B0058A4BB /* DIYLabel.m in Sources */,
 				35056F911C523E9900FD8FAD /* ViewController.m in Sources */,
 				35056F8E1C523E9900FD8FAD /* AppDelegate.m in Sources */,
 				35056F8B1C523E9900FD8FAD /* main.m in Sources */,

@@ -24,8 +24,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+
     //[self test1];
     [self test2];
+
+    [self test3];
+
 }
 
 - (IBAction)outBtnClick:(UIButton *)sender
@@ -98,4 +102,8 @@
     [self.otherBtn addSubview:btn];
     NSLog(@"我是test3");
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> dev
 @end
