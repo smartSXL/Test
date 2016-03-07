@@ -97,9 +97,5 @@
     [self.otherBtn addSubview:btn];
     NSLog(@"我是test3");
 }
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 @end
