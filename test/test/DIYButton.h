@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface DIYButton : UIButton
-
+- (void)test;
 @end

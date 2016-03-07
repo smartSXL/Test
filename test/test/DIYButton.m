@@ -9,5 +9,8 @@
 #import "DIYButton.h"
 
 @implementation DIYButton
-
+- (void)test
+{
+    
+}
 @end
