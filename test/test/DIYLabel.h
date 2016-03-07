@@ -1,5 +1,5 @@
 //
-//  DIYButton.h
+//  DIYLabel.h
 //  test
 //
 //  Created by 001号 on 16/3/7.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DIYButton : UIButton
-
-- (void)test;
-
-- (void)test2;
+@interface DIYLabel : UIView
 
 @end
